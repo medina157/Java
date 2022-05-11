@@ -3,16 +3,20 @@ public class aplicacao {
 
 	public static void main(String[] args) {
 	
-		FormaGeometrica quadrado = new Quadrado();
-		System.out.println("A área do quadrado é: " + quadrado.calcularArea(5));		
+		Quadrado quadrado = new Quadrado();
+		quadrado.lado = 5;
+		System.out.println("A área do quadrado é: " + quadrado.calcularArea());		
 		System.out.println();
 		
-		FormaGeometrica circuferencia = new Circuferencia();
-		System.out.println("A área da circuferencia é: " + circuferencia.calcularArea(5));
+		Circuferencia circuferencia = new Circuferencia();
+		circuferencia.raio = 5;
+		System.out.println("A área da circuferencia é: " + circuferencia.calcularArea());
 		System.out.println();
 		
-		FormaGeometrica retangulo = new Retangulo();
-		System.out.println("A área do retangulo é: " + retangulo.calcularArea(5));
+		Retangulo retangulo = new Retangulo();
+		retangulo.x = 2;
+		retangulo.y = 3;
+		System.out.println("A área do retangulo é: " + retangulo.calcularArea());
 			}
 
 }

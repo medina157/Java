@@ -1,11 +1,11 @@
 
 public class Retangulo implements FormaGeometrica {
 
-	int x = 5;
-	int y = 3;
+	int x ;
+	int y ;
 	
 	@Override
-	public double calcularArea(double lado) {
+	public double calcularArea() {
 		// TODO Auto-generated method stub
 		return x*y;
 	}
