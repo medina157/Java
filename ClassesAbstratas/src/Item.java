@@ -1,14 +1,14 @@
 
-public class Item {
+public abstract class Item {
 	
-	private int posX;
-	 private int posY;
+	private int posX; // Criando a variável privada do tipo inteiro
+	 private int posY; // Criando a variável privada do tipo inteiro
 	 
-	 public abstract  void pegar() {
+	 public  void pegar() { // Tudo que extend de item tem que implementar o codigo abstrato
 		 
 	 }
 
-	public int getPosX() {
+	public int getPosX() { 
 		return posX;
 	}
 
