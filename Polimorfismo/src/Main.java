@@ -9,7 +9,7 @@ public class Main {
 //		animal = new Gato();
 //		animal.Falar();
 //		
-		Gato gato=new Gato();
+		Gato gato=new Gato(); 
 		Cachorro cachorro = new Cachorro();
 		falar(gato);
 		falar(cachorro);
@@ -17,7 +17,7 @@ public class Main {
 	public static void falar(Animal a) {
 		a.Falar();
 		
-		if(a instanceof Cachorro){
+		if(a instanceof Cachorro){  // if significa "se", por exemplo: se cachorro for grande ele latira mais fort que um bebe
 			Cachorro c = (Cachorro) a;
 			c.Morder();
 		}
