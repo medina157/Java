@@ -1,2 +1,3 @@
-texto para ser gravado no arquivo
-,
+Sabonete[cheiro=Doce, cor=azul]
+Sabonete[cheiro=Lavanda, cor=rosa]
+Sabonete[cheiro=melancia, cor=vermelho]
