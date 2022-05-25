@@ -13,13 +13,14 @@ public class main {
 		try (Scanner scanner = new Scanner(System.in)) {
 			String string = "";
 			
-			System.out.println("Digite aqui");
+			System.out.println("Digite aqui\n");
 			string = scanner.nextLine();
 			
 			try(BufferedWriter escrever = new BufferedWriter(new FileWriter("menu.txt"))){
 				escrever.write(string);
 }
 
+	
 			try(BufferedReader reader = new BufferedReader(new FileReader("menu.txt"))){	
 				
 				String  line;
@@ -31,6 +32,7 @@ public class main {
 					string1 += line + "\n";		
 				}
 				System.out.println(string);
+				System.out.println("salvo em menu com sucesso");
 			}
 		}
 	}

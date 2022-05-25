@@ -1,0 +1,3 @@
+Sabonete: cheiro=Doce, cor=null
+Sabonete: cheiro=Lavanda, cor=null
+Sabonete: cheiro=melancia, cor=null
