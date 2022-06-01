@@ -4,23 +4,7 @@ public class Endereco {
 	private int num;
 	private String rua;
 	private String bairro;
-	
-	
 
-	public Endereco(String[] arrayLinha) {
-		String[] arrayNum = arrayLinha[0].split("=");
-		this.num = Integer.parseInt(arrayNum[1].trim());
-		
-		String[] arrayRua = arrayLinha[0].split("=");
-		this.rua = arrayRua[1].trim();
-		
-		String[] arrayBairro = arrayLinha[0].split("=");
-		this.bairro = arrayBairro[1].trim();
-		
-	}
-	public Endereco() {
-		// TODO Auto-generated constructor stub
-	}
 	public int getNum() {
 		return num;
 	}
@@ -42,11 +26,10 @@ public class Endereco {
 	
 	@Override
 	public String toString() {
-		return " ,num=" + num + ", rua=" + rua + ", bairro=" + bairro;
+		return " [num=" + num + ", rua=" + rua + ", bairro=" + bairro;
 	}
 
 	
 	
 	
 }
-

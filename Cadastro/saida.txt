@@ -1,0 +1,4 @@
+Pessoa nome=1, sexo=MASCULINO, idade=1 ,num=1, rua=1, bairro=1
+Pessoa nome=1, sexo=MASCULINO, idade=1 ,num=1, rua=1, bairro=1
+Pessoa nome=1, sexo=MASCULINO, idade=1 ,num=1, rua=1, bairro=1
+Pessoa nome=1, sexo=MASCULINO, idade=1 ,num=1, rua=1, bairro=1
