@@ -1,10 +1,12 @@
 
 public class Endereco {
 
-	private int num;
+	private int num;     //determinando variavel e seu valor com visibilidade privada
 	private String rua;
 	private String bairro;
 
+	
+	//get e set são técnicas padronizadas para gerenciamento sobre o acesso dos atributos
 	public int getNum() {
 		return num;
 	}
