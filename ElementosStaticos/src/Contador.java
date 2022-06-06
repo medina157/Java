@@ -6,7 +6,7 @@ public class Contador {
 //	public Contador() {
 //		this.valor = 1
 //	}
-	static {
+	static { //faz que a informaão fique estatica, e da pra imolementar novos valores 
 		valor = 1;
 	}
 	
@@ -19,7 +19,7 @@ public class Contador {
 		return valor;
 	}
 
-	public void setValor(int valor) {
+	public void setValor(int valor) { //modifica o valor da variavel
 		this.valor = valor;
 	}
 	
