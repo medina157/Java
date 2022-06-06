@@ -1,7 +1,7 @@
 
 public class Pessoa {
 
-	private String nome;
+	private String nome;   //determinando a variavel e o valor de visibilidade privada
 	private int idade;
 	private Endereco endereco;
 	Sexo sexo;
@@ -9,7 +9,7 @@ public class Pessoa {
 	
 	
 	
-	public Pessoa(String linha) {
+	public Pessoa(String linha) {  //manipulação do objeto 
 		
 		String[] arrayLinha = linha.split(",");
 		String[] arrayNome = arrayLinha[0].split("=");
@@ -52,7 +52,7 @@ public class Pessoa {
 		return endereco;
 	}
 	
-	@Override
+	@Override // override para subscrever o metodo
 	public String toString() {
 		return "Pessoa nome=" + nome + ", sexo="+ sexo +", idade=" + idade + endereco + "\n";
 	}
