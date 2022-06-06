@@ -1,8 +1,8 @@
 
 public abstract class Item {
 	
-	private int posX; // Criando a vari·vel privada do tipo inteiro
-	 private int posY; // Criando a vari·vel privada do tipo inteiro
+	private int posX; // Criando a vari√°vel privada do tipo inteiro
+	 private int posY; 
 	 
 	 public  void pegar() { // Tudo que extend de item tem que implementar o codigo abstrato
 		 
