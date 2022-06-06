@@ -1,7 +1,7 @@
 
-public enum DiaDaSemana {
+public enum DiaDaSemana { //enum sao opções pré definidas
 
-	//dias da semana e valores do indice que teve que colocar quando  criou o construtor
+	//dias da semana e valores do indice que teve que colocar quando criou o construtor
 	
 	DOMINGO(1),
 	SEGUNDA(2),
