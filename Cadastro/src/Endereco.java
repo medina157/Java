@@ -7,7 +7,7 @@ public class Endereco {
 	
 	
 
-	public Endereco(String[] arrayLinha) {
+	public Endereco(String[] arrayLinha) {   //guarda informções de um modo ordenado
 		String[] arrayNum = arrayLinha[0].split("=");
 		this.num = Integer.parseInt(arrayNum[1].trim());
 		
@@ -42,7 +42,7 @@ public class Endereco {
 	
 	@Override
 	public String toString() {
-		return " ,num=" + num + ", rua=" + rua + ", bairro=" + bairro;
+		return " ,num=" + num + ", rua=" + rua + ", bairro=" + bairro; //retorno de como aparecera para o usuario
 	}
 
 	
